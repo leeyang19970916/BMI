@@ -1,0 +1,432 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.round{
+    border-radius: 10px;
+    border: 1px solid rgb(246,205,103) ;
+  background-color:snow;  
+
+}
+.round:focus{
+    box-shadow:0 0px 5px 2px rgb(246,205,103) !important ;
+}
+input.form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: #888888;
+}
+
+.yellowbg{
+   background-color:  chocolate  ;
+}
+.circle{
+    border-radius: 50%;
+    min-width: 120px;
+   min-height:120px;
+    background-color:rgb(246,205,103);
+
+font-size: 18px;
+font-weight: bolder;
+}
+.circle:hover{
+    box-shadow: 0 0 6PX 2px snow;
+    color: #424242;
+}
+.yellow{
+    color:rgb(246,205,103) ;
+}
+.fw{
+    font-weight: bolder;
+   
+    letter-spacing: 3px;
+}
+
+
+
+.h{
+  
+  
+    background: rgb(252, 64, 64);
+    border-radius: 25%;
+    text-align: center;
+    font-size: 8px;
+    color: white;
+    text-decoration: none;
+   
+}
+.h:hover{
+    color: seashell;
+    text-decoration: none;
+}
+.fa{
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.thin{
+   
+background: white;
+padding-top:10PX;
+padding-bottom:10PX  ;
+
+    border-left: steelblue 5px solid !important;
+
+}
+.normal{
+    border-left: green 5px solid;
+    background: white;
+padding-top:10PX;
+padding-bottom:10PX  ;
+}
+.fat1{
+    border-left: orange 5px solid;
+    background: white;
+padding-top:10PX;
+padding-bottom:10PX  ;
+}
+.fat2{
+    border-left: orangered 5px solid;
+    background: white;
+padding-top:10PX;
+padding-bottom:10PX  ;
+}
+.fat3{
+    border-left: red 5px solid;
+    background: white;
+padding-top:10PX;
+padding-bottom:10PX  ;
+}
+.fat4{
+    border-left: black 5px solid;
+    background: white;
+padding-top:10PX;
+padding-bottom:10PX  ;
+}
+.long{
+    width: 150px;
+}
+.text{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.yellowlight{
+border: orange solid 1px !important;
+height: 40px;
+}
+.grey{
+   background-color:#424242 ; 
+}
+.borderyellow{
+    border: 3px rgb(246,205,103) dashed;
+}
+.fw-sm{
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing:3PX;
+}
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+
+.wrap{
+    min-height: calc(41.9vh);
+}
+.BMIIN{
+
+    border-radius: 50%;
+    min-width: 120px;
+   min-height:120px;
+    background-color:#424242;
+    border: 6px solid greenyellow;
+    text-align: center;
+ position: relative;
+ 
+}
+.go{
+    border-radius: 50%;
+color:#424242;
+    background:greenyellow;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+
+    
+}
+.return{
+    border-radius: 50%;
+color: #424242;
+    background: greenyellow;
+    position: absolute;
+    bottom: 0;
+ 
+ right: 0;
+
+    
+}
+.BMIanswer,.BMItitle{
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: gainsboro;
+}
+.resultanswer{
+    position: relative;
+}
+.BMIIN{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 16.5px;
+    margin-left: 8px;
+}
+.blue{
+    
+    border-radius: 50%;
+    min-width: 120px;
+   min-height:120px;
+    background-color:#424242;
+
+    text-align: center;
+ position: relative;
+    border: 8px solid skyblue;
+}
+.blue-bg{
+
+    border-radius: 50%;
+    color:#424242;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        
+    
+    background-color: skyblue;
+}
+
+.blue-bg-right{
+    
+    border-radius: 50%;
+    color:#424242;
+        background:greenyellow;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        
+    
+    background-color: skyblue;
+}
+.green{
+    border-radius: 50%;
+    min-width: 120px;
+   min-height:120px;
+    background-color:#424242;
+
+    text-align: center;
+ position: relative;
+    border: 8px solid green;}
+.green-bg{
+    border-radius: 50%;
+    color:#424242;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        
+    
+        background-color: green
+    }
+
+    .green-bg-right{
+        border-radius: 50%;
+        color:#424242;
+            position: absolute;
+            bottom: 0;
+          right: 0;
+            
+        
+            background-color: green
+        }
+.orange{
+    
+    border-radius: 50%;
+    min-width: 120px;
+   min-height:120px;
+    background-color:#424242;
+
+    text-align: center;
+ position: relative;
+    border: 8px solid orange;
+}
+.orange-bg{
+    border-radius: 50%;
+    color:#424242;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        
+    
+    
+   background:orange  ;
+}
+.orange-bg-right{
+    border-radius: 50%;
+    color:#424242;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        
+    
+    
+   background:orange  ;
+}
+.orangered{
+    
+    border-radius: 50%;
+    min-width: 120px;
+   min-height:120px;
+    background-color:#424242;
+
+    text-align: center;
+ position: relative;
+    border: 8px solid orangered;
+
+}.red{
+    
+    border-radius: 50%;
+    min-width: 120px;
+   min-height:120px;
+    background-color:#424242;
+    border: 6px solid greenyellow;
+    text-align: center;
+ position: relative;
+    border: 8px solid red;
+}.black{
+    
+    border-radius: 50%;
+    min-width: 120px;
+   min-height:120px;
+    background-color:#424242;
+    border: 6px solid greenyellow;
+    text-align: center;
+ position: relative;
+    border: 8px solid black;
+}
+.orangered-bg{
+    border-radius: 50%;
+    color:#424242;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        
+    
+    
+    background:orangered ;}
+    .orangered-bg-right{
+        border-radius: 50%;
+        color:#424242;
+            position: absolute;
+            bottom: 0;
+      right: 0;
+            
+        
+        
+        background:orangered ;}
+.red-bg{
+    border-radius: 50%;
+    color:#424242;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        
+    
+        
+    
+    background:red ;}
+    .red-bg-right{
+        border-radius: 50%;
+        color:#424242;
+            position: absolute;
+            bottom: 0;
+       right: 0;
+            
+        
+            
+        
+        background:red ;
+}
+.black-bg{
+    border-radius: 50%;
+    color:#424242;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    background:black ;
+}
+.black-bg-right{
+    border-radius: 50%;
+    color:#424242;
+        position: absolute;
+        bottom: 0;
+right: 0;
+    background:black ;
+}
+.text-none{
+    color:#424242 ;
+}
+.fw-sm{
+font-weight: bold;
+font-size: 20px;
+}
+#go:hover, #replay:hover{
+    color: snow;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+        integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="BMI.css">
+</head>
+
+<body class="bg-light">
+
+    <head>
+        <div class="container-fluid grey">
+            <div class="row d-flex justify-content-center ">
+                <div class="col-10 py-5  d-flex align-items-center justify-content-center ">
+                    <a class=" pt-3" href="#"><img src="../BMI/BMICLogo.png" alt=""></a>
+                    <div class="px-5">
+                        <label class=" yellow fw mb-2 " for="tall">身高 cm</label>
+                        <input class="form-control w-100 round mb-3 w-25 pr-5 yellowlight " type="text"
+                            placeholder="請輸入身高" id="tall">
+                        <label class="yellow fw  mb-2 " for="weight">體重 kg</label>
+                        <input class="form-control w-100 round w-25 pr-5 yellowlight  " type="text" placeholder="請輸入體重 "
+                            id="weight">
+                    </div>
+                    <div class="resultanswer">
+                        <button class="btn circle text-center ml-2 mt-3" id="button" type="submit">
+                            <p>看結果</p>
+                        </button>
+                        <div class="btn BMIIN">
+                            <div class="text-center pt-2">
+                                <p class="BMIanswer">24.1</p>
+                                <p class="BMItitle pt-2">BMI</p>
+                            </div>
+
+                            <a href="#" id="go" class="go  px-1"><i class="fas fa-plus gogo"></i></a>
+                            <a href="#" id="replay" class="return px-1"><i class="fas fa-undo-alt gogo "></i></a>
+
+
+                        </div>
+                   
+                    </div>
+                   <div id="answer" class="px-3 pt-3 fw-sm text-none">理想</div> 
+                </div>
+   
+            </div>
+        </div>
+    </head>
+    <section class="wrap my-3" style="min-height: 600px;">
+        <div class="container-fluid ">
+            <h2 class="fw fa-2x pt-5 pb-2 text-center">BMI紀錄</h2>
+            <div class="row justify-content-center">
+                <div class="col-6 list">
+                    <div class="content " id="initial">
+                        <div class="row justify-content-center text-center  ">
+                            <div class="col py-4 px-4 fw-sm borderyellow my-5 bg-white ">
+                                <p>尚未新增內容 <i class="fas fa-file-medical"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="ul" id="ul">
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+    </section>
+    <footer class=" footer">
+        <div class="py-3  yellowbg text-center mt-5 ">
+            <a class=" py-3" href="#"><img style="width: 80px;" src="../BMI/BMICLogo.png" alt=""></a>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.bundle.min.js"></script>
+
+    <script src="BMI.JS"></script>
+</body>
+
+</html>
