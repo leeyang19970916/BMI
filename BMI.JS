@@ -168,7 +168,7 @@ var data = JSON.parse(localStorage.getItem("listdata")) || []
 
 function updatelist(data) {
     var Today = new Date();
-    var gettoday = Today.getFullYear() + "/" + Today.getMonth()+  "/" + Today.getDate();
+    var gettoday = Today.getFullYear() + "/" + (Today.getMonth()+1)+  "/" + Today.getDate();
     var len = data.length;
     str = "";
 
@@ -233,3 +233,6 @@ function dele(e) {
     updatelist(data)
 
 }
+
+
+
